@@ -1,7 +1,9 @@
 :host {
-  border: none;
+  padding-bottom: 50px;
+  color: black;
+  border:gray;
   display: block;
-  height: 100vh;
+  min-height: 100vh;
   background: rgb(127,120,253);
   background: linear-gradient(321deg, rgba(127,120,253,1) 0%, rgba(41,45,157,1) 48%, rgba(0,212,255,1) 100%);
 }

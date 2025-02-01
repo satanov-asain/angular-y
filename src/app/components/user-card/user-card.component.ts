@@ -11,6 +11,7 @@ export class UserCardComponent implements OnInit {
 
   userCard: IUser = one_user_data;
 
+
   constructor() { }
 
   ngOnInit(): void {
