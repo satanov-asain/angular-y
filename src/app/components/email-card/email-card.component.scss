@@ -1,0 +1,29 @@
+:host{
+  display: block;
+  //margin: 15px 400px 20px 425px;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.email-card{
+  color: darkred;
+  border: solid 2px black;
+  border-radius: 10px;
+  background: blue;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.ward{
+  color: white;
+}
+.income{
+  color: violet;
+
+}
+
+
+

@@ -1,0 +1,21 @@
+:host{
+  display: block;
+  padding: 16px;
+  width: fit-content;
+  background: rgb(129,191,234);
+  background: linear-gradient(14deg, rgba(129,191,234,1) 0%, rgba(17,255,96,1) 36%, rgba(0,255,222,1) 61%);
+  margin: 0 auto;
+  height: 150px;
+  overflow: scroll;
+}
+
+.person{
+  background: purple;
+  color: aqua;
+  padding: 16px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: solid 2px yellow;
+  font-style: italic;
+  width: fit-content;
+}
