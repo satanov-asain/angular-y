@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {one_user_data} from "./data/users-data";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+  title=`checkNumber1`
+
+
+  protected readonly userCardEmail = one_user_data;
 }

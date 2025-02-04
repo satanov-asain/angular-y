@@ -1,11 +1,21 @@
 
+
 <div class="email-card">
-  <div class="card-email">{{userCardEmail.email}}</div>
-  <div class="ward">
-    hello once again !
+
+  <div (click)="helloCard()">
+
+    <div class="card-email">{{userCardEmail.email}}</div>
+
+    <div class="ward"
+      (click)="helloWorld($event)">
+      hello once again !
+    </div>
+
   </div>
-  <app-user-income class="income">
+
+  <app-user-income class="income" [userCompany]="userCardEmail.company">
 
   </app-user-income>
+
 </div>
 

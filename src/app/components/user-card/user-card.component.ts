@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {IUser} from "../types/users-list.model";
 import {one_user_data} from "../../data/users-data";
 
+
 @Component({
   selector: 'app-user-card',
   templateUrl: './user-card.component.html',
@@ -17,4 +18,5 @@ export class UserCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  protected readonly one_user_data = one_user_data;
 }

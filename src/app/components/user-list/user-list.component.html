@@ -1,6 +1,17 @@
-<p>user-list works!</p>
-<div class="person" *ngFor="let person of usersList">
-<div class="person-name" >
-{{person.name}}
-</div>
+<p
+    (click)="listAlert()"
+>user-list works!</p>
+
+<div
+  class="person"
+  *ngFor="let person of usersList"
+  (click)="showData(person)"
+>
+  <div class="person-name" >
+  {{person.name}}
+  </div>
+
+  <app-address-card [addressInfo]="person.address">
+
+  </app-address-card>
 </div>

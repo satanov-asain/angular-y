@@ -14,5 +14,15 @@ export class EmailCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  helloWorld(event: Event): void {
+    event.stopPropagation();
+    alert('Hello World!');
+  }
+  helloCard():void{
+    alert('Hello Card!');
+  }
+
+
   protected readonly userCard = one_user_data;
 }

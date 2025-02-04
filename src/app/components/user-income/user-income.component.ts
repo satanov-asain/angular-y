@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input, OnInit } from '@angular/core';
 import {one_user_data} from "../../data/users-data";
-import {IUser} from "../types/users-list.model";
+import {IUser, IUserCompany} from "../types/users-list.model";
 
 @Component({
   selector: 'app-user-income',
@@ -8,7 +8,11 @@ import {IUser} from "../types/users-list.model";
   styleUrls: ['./user-income.component.scss']
 })
 export class UserIncomeComponent implements OnInit {
-  userData: IUser = one_user_data;
+ // userData: IUser = one_user_data;
+
+  @Input()
+  userCompany!: IUserCompany;
+
 
 
   constructor() { }

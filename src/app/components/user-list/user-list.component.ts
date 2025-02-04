@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { users_data} from "../../data/users-data";
+import {one_user_data, users_data} from "../../data/users-data";
 import {IUser} from "../types/users-list.model";
 
 @Component({
@@ -14,5 +14,13 @@ usersList: IUser[]= users_data;
 
   ngOnInit(): void {
   }
+  listAlert(): void{
+    alert('Attention')
+  }
 
+  showData(person:IUser): void{
+    alert(`Имя -${person.name}`);
+  }
+
+  protected readonly userCard = one_user_data;
 }

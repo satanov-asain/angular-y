@@ -7,6 +7,7 @@ import { UserCardComponent } from './components/user-card/user-card.component';
 import { EmailCardComponent } from './components/email-card/email-card.component';
 import { UserIncomeComponent } from './components/user-income/user-income.component';
 import { UserListComponent } from './components/user-list/user-list.component';
+import { AddressCardComponent } from './components/address-card/address-card.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
     EmailCardComponent,
     UserIncomeComponent,
     UserListComponent,
+    AddressCardComponent,
   ],
   imports: [
     BrowserModule,
