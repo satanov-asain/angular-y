@@ -1,0 +1,27 @@
+:host{
+  display: block;
+  min-height: 50vw;
+  background: rgb(49,0,129);
+  background: linear-gradient(14deg, rgba(49,0,129,1) 0%, rgba(189,0,93,1) 47%, rgba(3,0,255,1) 96%);
+  padding: 30px;
+}
+
+.wrapper {
+  border: 4px #001b24 solid;
+  border-radius: 10px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.choises{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  border: 2px #73004b solid;
+  border-radius: 10px;
+  background-color: #0d00ca;
+}

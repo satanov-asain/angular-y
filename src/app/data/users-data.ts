@@ -510,3 +510,7 @@ export const users_data: IUser[] = [
     income: 590000,
   },
 ];
+
+export const userCityList: string[] = users_data.map( person => {
+  return person.address.city;
+})
