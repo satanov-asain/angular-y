@@ -5,11 +5,15 @@
   background: rgb(129,191,234);
   background: linear-gradient(14deg, rgba(129,191,234,1) 0%, rgba(17,255,96,1) 36%, rgba(0,255,222,1) 61%);
   margin: 0 auto;
-  height: 150px;
+  height: 400px;
   overflow: scroll;
 }
 
 .person{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
   background: purple;
   color: aqua;
   padding: 16px;

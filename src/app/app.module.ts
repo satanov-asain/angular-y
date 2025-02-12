@@ -4,20 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserCardComponent } from './components/user-card/user-card.component';
-import { EmailCardComponent } from './components/email-card/email-card.component';
+import { UserEmailComponent } from './components/email-card/user-email.component';
 import { UserIncomeComponent } from './components/user-income/user-income.component';
 import { UserListComponent } from './components/user-list/user-list.component';
-import { AddressCardComponent } from './components/address-card/address-card.component';
+import { AddressComponent } from './components/address-card/address.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UserCardComponent,
-    EmailCardComponent,
+    UserEmailComponent,
     UserIncomeComponent,
     UserListComponent,
-    AddressCardComponent,
+    AddressComponent,
   ],
   imports: [
     BrowserModule,

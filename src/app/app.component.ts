@@ -7,8 +7,6 @@ import {one_user_data} from "./data/users-data";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title=`checkNumber1`
-
 
   protected readonly userCardEmail = one_user_data;
 }

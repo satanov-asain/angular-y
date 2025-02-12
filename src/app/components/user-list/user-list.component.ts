@@ -14,13 +14,8 @@ usersList: IUser[]= users_data;
 
   ngOnInit(): void {
   }
-  listAlert(): void{
-    alert('Attention')
-  }
 
   showData(person:IUser): void{
-    alert(`Имя -${person.name}`);
+    alert(`Имя - ${person.name}`);
   }
-
-  protected readonly userCard = one_user_data;
 }

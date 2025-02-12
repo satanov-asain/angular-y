@@ -12,11 +12,8 @@ export class UserCardComponent implements OnInit {
 
   userCard: IUser = one_user_data;
 
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
-  }
-
-  protected readonly one_user_data = one_user_data;
 }

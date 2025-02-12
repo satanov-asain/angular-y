@@ -7,6 +7,18 @@
   background: rgb(127,120,253);
   background: linear-gradient(321deg, rgba(127,120,253,1) 0%, rgba(41,45,157,1) 48%, rgba(0,212,255,1) 100%);
 }
-.dop{
-  margin: 30px 20px;
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list{
+  max-width: fit-content;
+}
+
+.example-components{
+  width: 100%;
 }
