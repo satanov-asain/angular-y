@@ -1,6 +1,5 @@
 import { Component,Input, OnInit } from '@angular/core';
-import {one_user_data} from "../../data/users-data";
-import {IUser, IUserCompany} from "../types/users-list.model";
+import {IUserCompany} from "../types/users-list.model";
 
 @Component({
   selector: 'app-user-income',
