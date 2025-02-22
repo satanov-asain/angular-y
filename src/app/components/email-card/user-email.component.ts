@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {one_user_data} from "../../data/users-data";
+
 
 @Component({
   selector: 'app-user-email',
@@ -8,16 +8,17 @@ import {one_user_data} from "../../data/users-data";
 })
 export class UserEmailComponent implements OnInit {
   @Input()
-  userEmailInput: string;
+  emailInput: string;
 
   constructor() {
   }
 
   ngOnInit(): void {
-    if (this.userEmailInput) {
-      //Оставляем
+    if (this.emailInput) {
+      //Оставляем то что пришло из инпута
     } else {
-      this.userEmailInput = one_user_data.email;
+      // Если инпут пустой - подставляем значение-заглушку.
+      this.emailInput = 'fakefake@mail.com';
     }
   }
 

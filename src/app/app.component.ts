@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import {one_user_data} from "./data/users-data";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,4 @@ import {one_user_data} from "./data/users-data";
 })
 export class AppComponent {
 
-  protected readonly userCardEmail = one_user_data;
 }

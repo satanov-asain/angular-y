@@ -4,11 +4,19 @@
 
   <div class="card-phone">{{userCard.phone}}</div>
 
+  <div class="card-email">{{userCard.email}}</div>
+
   <div class="card-street">{{userCard.address.street}}</div>
 
-  <app-user-email>
+  <div class="card-city">{{userCard.address.city}}</div>
 
+  <div class="card-company">{{userCard.company.name}}</div>
+
+  <app-user-email [emailInput]="userCard.email">
   </app-user-email>
+
+  <app-address [addressInput]="userCard.address">
+  </app-address>
 
 </div>
 

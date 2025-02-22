@@ -8,6 +8,7 @@ import { UserEmailComponent } from './components/email-card/user-email.component
 import { UserIncomeComponent } from './components/user-income/user-income.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { AddressComponent } from './components/address-card/address.component';
+import { CardLabelComponent } from './components/card-label/card-label.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { AddressComponent } from './components/address-card/address.component';
     UserIncomeComponent,
     UserListComponent,
     AddressComponent,
+    CardLabelComponent,
   ],
   imports: [
     BrowserModule,

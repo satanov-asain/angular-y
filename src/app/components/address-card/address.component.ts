@@ -9,7 +9,7 @@ import { IUserAddress} from "../types/users-list.model";
 export class AddressComponent implements OnInit {
 
   @Input()
-  addressInfo: IUserAddress;
+  addressInput: IUserAddress;
 
   constructor() {}
 

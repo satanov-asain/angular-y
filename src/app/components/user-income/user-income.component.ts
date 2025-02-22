@@ -13,8 +13,6 @@ export class UserIncomeComponent implements OnInit {
   @Input()
   userCompany!: IUserCompany;
 
-
-
   constructor() { }
 
   ngOnInit(): void {
