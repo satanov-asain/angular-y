@@ -14,5 +14,4 @@ export class EmailCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  protected readonly userCard = one_user_data;
 }

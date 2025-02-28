@@ -18,4 +18,8 @@ export class CityChoiseSimpleComponent implements OnInit {
     this.resultCity = city;
   }
 
+  clearCity(): void {
+    this.resultCity = '';
+  }
+
 }

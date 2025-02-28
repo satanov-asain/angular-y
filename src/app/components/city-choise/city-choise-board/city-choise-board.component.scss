@@ -24,4 +24,47 @@
   border: 2px #73004b solid;
   border-radius: 10px;
   background-color: #0d00ca;
+
+
+  app-city-choise-simple{
+    padding: 20px;
+    border: #f3ff23 4px solid;
+    border-radius: 10px;
+    background: #84a5ff;
+
+    &:before{
+      content: 'Выбор города';
+      display: block;
+      width: fit-content;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 10px;
+
+      background: #00307b;
+      color: white;
+      padding: 10px;
+      border: 2px solid white;
+    }
+  }
+
+  app-city-choise-hard{
+    padding: 20px;
+    border: #ff2323 4px solid;
+    border-radius: 10px;
+    background: #a700b9;
+
+    &:before{
+      content: 'Выбор города';
+      display: block;
+      width: fit-content;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 10px;
+
+      background: #00307b;
+      color: white;
+      padding: 10px;
+      border: 2px solid white;
+    }
+  }
 }
