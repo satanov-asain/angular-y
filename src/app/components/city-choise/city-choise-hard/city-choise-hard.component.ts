@@ -9,6 +9,8 @@ export class CityChoiseHardComponent implements OnInit {
 
   resultCity: string;
 
+  resultStreet: string;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -16,6 +18,10 @@ export class CityChoiseHardComponent implements OnInit {
 
   choiseResultCity(city: string): void {
     this.resultCity = city;
+  }
+
+  choiseResultStreet(street: string ): void {
+    this.resultStreet = street;
   }
 
 }

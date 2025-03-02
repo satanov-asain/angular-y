@@ -1,5 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {userCityList} from "../../../data/users-data";
+import {userCityList, users_data} from "../../../data/users-data";
+import {IUser} from "../../types/users-list.model";
 
 @Component({
   selector: 'app-city-choise-list-hard',
@@ -8,16 +9,35 @@ import {userCityList} from "../../../data/users-data";
 })
 export class CityChoiseListHardComponent implements OnInit {
 
-  cityList: string[] = userCityList;
+  usersList: IUser[] = users_data;
 
-  @Output() cityOutput = new EventEmitter<string>();
+  cityList: string[];
+
+  streetList: string[];
+
+  @Output()
+  cityOutput = new EventEmitter<string>();
+
+  @Output()
+  streetOutput = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
+    this.cityList = this.usersList.map(person => {
+      return person.address.city
+    });
+
+    this.streetList = this.usersList.map(person => {
+      return person.address.street;
+    })
   }
 
   chooseCity(choosenCity: string): void {
     this.cityOutput.emit(choosenCity);
+  }
+
+  chooseStreet(choosenStreet: string): void {
+    this.streetOutput.emit(choosenStreet);
   }
 }

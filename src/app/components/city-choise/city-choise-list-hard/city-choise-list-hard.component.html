@@ -1,10 +1,19 @@
-<div class="city-list">
+<div class="list">
 
   <div
+    class="city-list"
     *ngFor="let city of cityList"
     (click)="chooseCity(city)"
   >
     {{city}}
+  </div>
+
+  <div
+    class="street-list"
+    *ngFor="let street of streetList"
+    (click)="chooseStreet(street)"
+  >
+    {{street}}
   </div>
 
 </div>

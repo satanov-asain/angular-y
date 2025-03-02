@@ -1,8 +1,12 @@
-<app-city-choise-result [resultInput]="resultCity">
 
-</app-city-choise-result>
+
+<span class="result city">Город - {{resultCity}}</span>
+<span class="result city">Улица - {{resultStreet}}</span>
 
 <app-city-choise-list-hard
   (cityOutput)="choiseResultCity($event)"
+  (streetOutput)="choiseResultStreet($event)"
 >
 </app-city-choise-list-hard>
+
+

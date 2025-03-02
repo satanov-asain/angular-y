@@ -2,7 +2,7 @@
   display: block;
 }
 
-.city-list {
+.list {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -17,4 +17,15 @@
     color: black;
     background-color: azure;
   }
+
+  .city-list {
+    background: #73004b;
+  }
+
+  .street-list{
+    background: darkgreen;
+  }
 }
+
+
+

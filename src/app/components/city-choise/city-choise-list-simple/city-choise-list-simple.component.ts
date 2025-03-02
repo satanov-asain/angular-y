@@ -7,7 +7,8 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 })
 export class CityChoiseListSimpleComponent implements OnInit {
 
-  @Output() cityOutput = new EventEmitter<string>();
+  @Output()
+  cityOutput = new EventEmitter<string>();
 
   constructor() { }
 
