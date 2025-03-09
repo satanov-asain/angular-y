@@ -40,4 +40,5 @@ export class CityChoiseListHardComponent implements OnInit {
   chooseStreet(choosenStreet: string): void {
     this.streetOutput.emit(choosenStreet);
   }
+
 }

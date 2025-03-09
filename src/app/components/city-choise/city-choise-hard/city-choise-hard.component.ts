@@ -20,7 +20,7 @@ export class CityChoiseHardComponent implements OnInit {
     this.resultCity = city;
   }
 
-  choiseResultStreet(street: string ): void {
+  choiseResultStreet(street: string): void {
     this.resultStreet = street;
   }
 
